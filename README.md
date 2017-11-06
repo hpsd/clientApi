@@ -1,4 +1,4 @@
-#clientApi Project
+# clientApi Project
 
 This project constitutes the Back-end client based on Spring Boot.
 
@@ -18,7 +18,7 @@ CRUD operations can be performed by the user using HTTP/REST.
  
 
 
-##SEARCH :
+## SEARCH :
  
 GET http://localhost:8080/clientapi/v1/users/search/getMaxId
 
@@ -32,7 +32,7 @@ GET http://localhost:8080/clientapi/v1/profile/users
 
 
 
-##CRUD :
+## CRUD :
   
 GET http://localhost:8080/clientapi/v1/users/1
 
@@ -54,7 +54,7 @@ DELETE  http://localhost:8080/clientapi/v1/users/7
     Response Status : 204
 
 
-##Sample JSON:  
+## Sample JSON:  
 
 ```json
 {
@@ -72,4 +72,11 @@ DELETE  http://localhost:8080/clientapi/v1/users/7
   ],
   "retrievalTimeStamp": "2017-11-05T14:50:45.344+0000"
 }
+```
+
+### Runnable Jar Download 
+[clientApi.jar](https://hpsd.github.io/runnable/clientApi.jar)
+
+```sh
+$ java -jar clientApi.jar
 ```
